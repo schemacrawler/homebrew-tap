@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.24.0-SNAPSHOT at 2026-03-01T02:54:57.8072979Z
+# Generated with JReleaser 1.24.0-SNAPSHOT at 2026-03-03T02:51:27.2471347Z
 
 class Schemacrawler < Formula
   desc "Free database schema discovery and comprehension tool"
@@ -8,7 +8,7 @@ class Schemacrawler < Formula
   sha256 "4b873b98847855b4ca880910c19bd55c8720494bf6fd41ca2db9b238b162b9bd"
   license "EPL-1.0"
 
-  depends_on "openjdk@8"
+  depends_on "openjdk@17"
 
   def install
     libexec.install Dir["*"]
