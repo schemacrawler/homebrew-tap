@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.24.0-SNAPSHOT at 2026-03-05T01:53:01.0439348Z
+# Generated with JReleaser 1.24.0-SNAPSHOT at 2026-03-05T02:12:01.2817444Z
 
 cask "schemacrawler" do
   desc "Free database schema discovery and comprehension tool"
