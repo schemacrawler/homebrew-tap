@@ -12,7 +12,7 @@ class Schemacrawler < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink "#{libexec}/Cellar/schemacrawler/17.6.3/libexec/bin/schemacrawler.sh" => "schemacrawler"
+    bin.install_symlink "#{libexec}/bin/schemacrawler.sh" => "schemacrawler"
   end
 
   test do
