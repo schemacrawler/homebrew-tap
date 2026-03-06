@@ -16,6 +16,10 @@ This repository publishes the SchemaCrawler Homebrew Tap.
 Install with:
 
 ```sh
-brew tap SchemaCrawler/homebrew-tap
-brew install schemacrawler
+# Install SchemaCrawler
+brew tap schemacrawler/homebrew-tap
+brew install --formula schemacrawler
+
+# Check that SchemaCrawler is installed
+schemacrawler --version
 ```
