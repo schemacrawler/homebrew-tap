@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.27.0-SNAPSHOT at 2026-10-14T12:26:45.168733Z
+# Generated with JReleaser 1.27.0-SNAPSHOT at 2026-10-28T01:45:13.1310809Z
 
 class Schemacrawler < Formula
   desc "Free database schema discovery and comprehension tool"
