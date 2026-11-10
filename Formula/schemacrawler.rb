@@ -1,11 +1,11 @@
-# Generated with JReleaser 1.27.0-SNAPSHOT at 2026-10-30T12:27:55.7240436Z
+# Generated with JReleaser 1.28.0-SNAPSHOT at 2026-11-10T02:27:48.0113994Z
 
 class Schemacrawler < Formula
   desc "Free database schema discovery and comprehension tool"
   homepage "https://www.schemacrawler.com/"
-  url "https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v18.0.1/schemacrawler-18.0.1-bin.zip"
-  version "18.0.1"
-  sha256 "31ee08c3eb249e7a7566aa30e32da5d1d1faa97eee042f9ce297212cc370e8d4"
+  url "https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v18.0.2/schemacrawler-18.0.2-bin.zip"
+  version "18.0.2"
+  sha256 "9bfe7d6bffb8c9f768cb0e5c275ec975062dc819a850babb0abb41ff2a07a207"
   license "EPL-1.0"
 
   depends_on "openjdk@17"
@@ -17,6 +17,6 @@ class Schemacrawler < Formula
 
   test do
     output = shell_output("#{bin}/schemacrawler --version")
-    assert_match "18.0.1", output
+    assert_match "18.0.2", output
   end
 end
